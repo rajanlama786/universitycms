@@ -27,13 +27,18 @@ public class Main {
 		s1.getContact();
 		
 		/** System.out.println(s1); // not working **/
-
+		System.out.println("This is your profile");
 		System.out.println(s1.getId());
 		System.out.println(s1.getFirstName());
 		System.out.println(s1.getLastName());
 		System.out.println(s1.getAge());
 		System.out.println(s1.getContact());
 		System.out.println(s1.getMyClass());
+		
+		StudentInt stdProfile;
+		stdProfile = new StudentProfile();
+		
+		System.out.println( stdProfile.testInterface() );
 		
 	}
 

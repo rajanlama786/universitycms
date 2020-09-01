@@ -14,6 +14,10 @@ public class Student extends Person {
 	public void setMyClass(String myClass) {
 		this.myClass = myClass;
 	}
+	
+	public String testInterface() {
+		return "test Inteface";
+	}
 
 
 	public static void main(String[] args ) {
